@@ -5,7 +5,7 @@ def run_guessing_game
   puts "Guess a number between 1 and 6"
   random_number = rand(6) + 1
   user_guess = gets.chomp
-  binding.irb
+  binding.pry
   if user_guess == 'exit'
     puts "Goodbye!"
   else

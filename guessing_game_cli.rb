@@ -4,5 +4,5 @@ def run_guessing_game
   puts "Guess a number between 1 and 6"
   user_guess = gets
   if user_guess == random_number
-    
+    puts "You guessed the correct number"
 end

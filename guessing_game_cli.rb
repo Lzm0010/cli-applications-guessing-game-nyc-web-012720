@@ -6,7 +6,6 @@ def run_guessing_game
   random_number = rand(6) + 1
   binding.irb
   user_guess = gets.chomp
-
   if user_guess == 'exit'
     puts "Goodbye!"
   else
